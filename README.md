@@ -17,22 +17,27 @@ All rights of this project belongs to "Perfios Software Solutions Pvt. Ltd."
 ##Directions
 -----------------------------
 
-How to Run Android Project?
+**How to Run Android Project?**
+
 In "./src/Android" directory you have all your android application code. For running this application code in your system, 
 you need to install Android Studio tool. After Opening Android Studio tool in your system, open this application in your Android studio 
 then you can run this application code and can do modifications also.
 
-How to create MySQL schema?
+**How to create MySQL schema?**
+
 In "./src/Sever/MySQL" directory you have all your MySQL code. For using MySQL, you need to install MySQL server in your system.
 After installing you can use create database and tables by using given MySQL schema.
 
-How to use tomcat Server?
+**How to use tomcat Server?**
+
 In "./src/Sever/Tomcat" directory you have information about tomcat usage.
 
-How to connect MySQL database with http?
+**How to connect MySQL database with http?**
+
 In "./src/Sever/Java" directory you have all your servlet code. By using servlets, you can connect MySQL with http.
 
-How to send data to http?
+**How to send data to http?**
+
 The android code it-self is having the code to send data to http. Referring that directory is sufficient.
 
 
