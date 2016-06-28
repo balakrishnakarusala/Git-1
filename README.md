@@ -98,7 +98,7 @@ need to add some jar files to your "Eclipse JeeMars" IDE.
 		"Add Build Path". With this second jar file is added to your Servlet project.
 		
 	3) Add "java-json.jar" file to your project in "Eclipse JeeMars" IDE. Follow 2nd one steps to add this 
-	jar. This is also one external Library.
+	jar file. This is also one external Library.
 
 **How to send data to http?**
 
