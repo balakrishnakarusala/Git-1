@@ -34,7 +34,15 @@ For Running this project in your local machine, you need to install these softwa
 
 4.Apache Tomcat Server 8.0
 
-5.Add these bulid paths to your System Environment Variables.
+5.Java Servlets
+
+	*These servlets code written in "Eclipse JeeMars" IDE.
+	
+	*To "Eclipse JeeMars" IDE you need to add server-api.jar path from tomcat server.
+	
+	*Create "servlet application" project in "Eclipse JeeMars" IDE.
+
+6.Add these bulid paths to your System Environment Variables.
 
     * CATALINA_HOME C:\Program Files\Apache Software Foundation\Tomcat 8.0
     
@@ -63,11 +71,27 @@ After installing you can use create database and tables by using given MySQL sch
 
 **How to use tomcat Server?**
 
-In "./src/Sever/Tomcat" directory you have information about tomcat usage.
+In "./src/Sever/Tomcat" directory you have information about tomcat usage. For using tomcat server you need to add above mentoned bulid 
+paths to your System Environment Variables.
 
 **How to connect MySQL database with http?**
 
-In "./src/Sever/Java" directory you have all your servlet code. By using servlets, you can connect MySQL with http.
+In "./src/Sever/Java" directory you have all your servlet code. By using servlets, you can connect MySQL with http. For Executing servlets you 
+need to add some jar files to your "Eclipse JeeMars" IDE.
+	1) Add "servlet-api.jar file" to your project in "Eclipse JeeMars" IDE. Follow below mentioned steps to add "server-api.jar" file.
+	
+		*Right click on your project then go to **"Build Path"** -> **"Configure Bulid Path"** -> **"Libraries"** -> **"External Jars"** then 
+		add file from this path "C:\Program Files\Apache Software Foundation\Tomcat 8.0\lib\servlet-api.jar".
+		
+	2) Add "mysql-connector-java-5.1.39.jar" file to your project in "Eclipse JeeMars" IDE. Follow below mentioned steps to add "mysql-connector-java-5.1.39.jar" file.
+	
+		*Right click on your project then go to **New'** -> **"New Folder" then create a new folder with a name of "external_lib".
+		
+		*Copy "mysql-connector-java-5.1.39.jar" file from "C:\Program Files (x86)\MySQL\mysql-connector-java-5.1.39" this location and paste 
+		on this folder.
+		
+		*Open "external_lib" folder and right click on "**mysql-connector-java-5.1.39.jar**" -> "**Build Path**" -> "**Add Build Path**". 
+		with this second jar file is added to your Servlet project.
 
 **How to send data to http?**
 
