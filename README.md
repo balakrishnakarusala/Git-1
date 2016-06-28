@@ -20,6 +20,14 @@ For Running this project in your local machine, you need to install these softwa
 
 1.Android Studio
 
+	*For running this application in your local machine. You need build gradle file of this application with these dependencies.
+	
+		*compile 'com.android.support:appcompat-v7:23.4.0'
+		
+		*compile 'com.android.support:design:23.4.0'
+		
+		*compile 'com.android.support:support-v4:23.4.0'
+
 2.JRE and JVM with configuration atleast 1.8
 
 3.MySQL Server
