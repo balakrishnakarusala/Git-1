@@ -78,6 +78,7 @@ paths to your System Environment Variables.
 
 In "./src/Sever/Java" directory you have all your servlet code. By using servlets, you can connect MySQL with http. For Executing servlets you 
 need to add some jar files to your "Eclipse JeeMars" IDE.
+
 	1) Add "servlet-api.jar file" to your project in "Eclipse JeeMars" IDE. Follow below mentioned steps to add "server-api.jar" file.
 	
 		*Right click on your project then go to **"Build Path"** -> **"Configure Bulid Path"** -> **"Libraries"** -> **"External Jars"** then 
