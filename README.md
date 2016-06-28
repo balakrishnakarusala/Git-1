@@ -81,7 +81,7 @@ need to add some jar files to your "Eclipse JeeMars" IDE.
 
 	1) Add "servlet-api.jar file" to your project in "Eclipse JeeMars" IDE. Follow below mentioned steps to add "server-api.jar" file.
 	
-		*Right click on your project then go to **"Build Path"** -> "Configure Bulid Path" -> "Libraries" -> "External Jars" then 
+		*Right click on your project then go to "Build Path" -> "Configure Bulid Path" -> "Libraries" -> "External Jars" then 
 		add file from this path "C:\Program Files\Apache Software Foundation\Tomcat 8.0\lib\servlet-api.jar".
 		
 	2) Add "mysql-connector-java-5.1.39.jar" file to your project in "Eclipse JeeMars" IDE. Follow below mentioned steps to add "mysql-connector-java-5.1.39.jar" file.
