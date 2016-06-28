@@ -14,6 +14,20 @@ This project is developed under the guidance of Vikash sir.
 
 All rights of this project belongs to "Perfios Software Solutions Pvt. Ltd." 
 
+##Prerequisities
+--------------------------------
+For Running this project in your local machine, you need to install these softwares
+
+1.Android Studio
+2.JRE and JVM with configuration atleast 1.8
+3.MySQL Server
+4.Apache Tomcat Server 8.0
+5.Add these bulid paths to your System Environment Variables.
+    * CATALINA_HOME C:\Program Files\Apache Software Foundation\Tomcat 8.0
+    * CLASS_PATH C:\Program Files\Apache Software Foundation\Tomcat 8.0\lib\servlet-api.jar
+    * JAVA_HOME C:\Program Files\Java\jdk1.8.0_91.
+    * path C:\Program Files\Java\jdk1.8.0_91\bin.
+
 ##Directions
 -----------------------------
 
