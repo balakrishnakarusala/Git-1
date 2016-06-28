@@ -16,9 +16,17 @@ All rights of this project belongs to "Perfios Software Solutions Pvt. Ltd."
 
 ##Prerequisities
 --------------------------------
-For Running this project in your local machine, you need to install these softwares
+For Running this project in your local machine, you need to install these software's.
 
 1.Android Studio
+
+	*For running this application in your local machine. You need build gradle file of this application with these dependencies.
+	
+		*compile 'com.android.support:appcompat-v7:23.4.0'
+		
+		*compile 'com.android.support:design:23.4.0'
+		
+		*compile 'com.android.support:support-v4:23.4.0'
 
 2.JRE and JVM with configuration atleast 1.8
 
@@ -26,7 +34,17 @@ For Running this project in your local machine, you need to install these softwa
 
 4.Apache Tomcat Server 8.0
 
-5.Add these bulid paths to your System Environment Variables.
+5.Java Servlets
+
+	*These servlets code written in "Eclipse JeeMars" IDE.
+	
+	*To "Eclipse JeeMars" IDE you need to add server-api.jar path from tomcat server.
+	
+	*Create "servlet application" project in "Eclipse JeeMars" IDE.
+	
+	
+
+6.Add these bulid paths to your System Environment Variables.
 
     * CATALINA_HOME C:\Program Files\Apache Software Foundation\Tomcat 8.0
     
