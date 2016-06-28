@@ -50,11 +50,11 @@ For Running this project in your local machine, you need to install these softwa
 
 **How to Run Android Project?**
 
-In "./src/Android" directory you have all your android application code.  
-For running this application code in your system, you need to install Android Studio tool. Place this Project folder in android workspace. 
-After Opening Android Studio tool in your system, open this application from android workspce. After opening application some time will be taken for building gradle of application.
-If gradle build successfully then everything is okey, Your tool is upto date else you need add above mentioned dependencies in the gradle file and rebulid the grable
-.Gradle bulid successfully then you can run this application code and can do modifications also.
+In "./src/Android" directory you have all your android application code.For running this application code in your system, 
+you need to install Android Studio tool. Place this Project folder in android workspace. After Opening Android Studio tool in your system, 
+open this application from android workspce. After opening application, some time will be taken for building gradle of application.
+If gradle build successfully then everything is okey, Your tool is upto date else you need add above mentioned dependencies in the gradle file 
+and rebulid the grable. Gradle bulid successfully then you can run this application code and can do modifications also.
 
 **How to create MySQL schema?**
 
